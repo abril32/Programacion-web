@@ -1,0 +1,35 @@
+/*en css nos vamos a manejar con clases, y las clases las identificamos con . */
+
+.encabezado{
+    background-color: rgb(50, 54, 114);
+    color: whitesmoke;
+}
+
+.alinear{
+    display: flex;
+}
+
+.foto{
+    width: 300px;
+}
+
+.titulo-exp{
+    font-weight: bold;
+}
+
+.parrado-cursuva{
+    font-style: italic;
+}
+
+.bordes-gruesos{
+    border-bottom:solid 5px black;
+}
+
+.caja-izquierda{
+    width: 30%;
+    background-color: rgb(135, 96, 241);
+}
+
+.caja-derecha{
+    width:  60%;
+}
