@@ -1,0 +1,15 @@
+1.La propiedad del CSS que se utiliza para cambiar el comportamiento de los elementos del contendedor,
+es el display : flex
+
+2.La propiedad CSS que permite definir el espacio entre elementos hijos de un contendedor es flex.
+
+3.El align-items solo se puede usar con el flex direction, mientras que el justify-content se puede
+usar solo con el flex.
+
+4.La propiedad CSS que se utiliza para cambiar el tamaño de las filas y columnas del grind son
+grid-template-columns: ; / grid-template-rows: ;
+
+5.La principal diferencia entre el flex y el grind es que uno se puede usar en varias filasy grillas,
+y el flex se puede usar en una sola fila y solo alinea.
+
+6. Los elementos hijos se alinean en el contendedor con un class
