@@ -21,6 +21,9 @@
     grid-template-columns:100px 150px 350px; 
     grid-template-rows: 200px 100px;
 }
+
+/*pokemones*/
+
 .alineamiento{
     display: grid;
     grid-template-columns: repeat(3, 300px);
@@ -30,14 +33,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: goldenrod;
 }
 
-.color-caja{
-    background-color: rgb(7, 7, 7);
+.color-Mimikyu{
+    background-color: hwb(49 34% 38%);
+    border-radius: 50px;
+    color: blanchedalmond
+}
+.color-Meowth{
+    background-color: peru;
+    border-radius: 50px;
+    color: hsl(59, 91%, 66%);
+}
+.color-Diancie{
+    background-color: hwb(54 21% 23%);
     border-radius: 50px;
 }
+
 .tamaño{
     width: 80%;
     object-fit: cover;
+}
+
+.tamaño2{
+    width: 100%;
+    object-fit: fill;
 }
