@@ -45,9 +45,10 @@
     border-radius: 50px;
     color: hsl(59, 91%, 66%);
 }
-.color-Diancie{
-    background-color: hwb(54 21% 23%);
+.color-Shinx{
+    background-color: hsl(212, 45%, 65%);
     border-radius: 50px;
+    color: darkblue;
 }
 
 .tamaño{
@@ -58,4 +59,23 @@
 .tamaño2{
     width: 100%;
     object-fit: fill;
+}
+
+.altura-max{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+}
+.alineamiento-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.color{
+    background-color: wheat;
+}
+.alinear-grilla{
+    display: flex;
+    justify-content: center;
 }
