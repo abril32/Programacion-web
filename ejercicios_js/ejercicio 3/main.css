@@ -1,0 +1,14 @@
+.color-fondo{
+    background-color: #a87be2;
+    border: 20px;
+}
+
+.alinear{
+    display: flex;
+    justify-content: center;
+}
+
+.alinear-div{
+    display: flex;
+    flex-direction: column;
+}
