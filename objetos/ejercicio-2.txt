@@ -1,0 +1,32 @@
+1.
+const person = {
+  name: 'John',
+  age: 30,
+  hobbies: ['reading', 'music', 'sports']
+}
+//desestructuracion           
+const { 
+  weight = 70,
+  height = 180,
+  } = person
+console.log(weight, height)
+
+En la consola se va a mostrar 70 y 180 porque son los valores asignados para el peso(weight) y la
+altura(height)
+
+const person = {
+  name: 'John',
+  age: 30,
+  hobbies: ['reading', 'music', 'sports']
+}
+          
+const { age: personAge } = person
+console.log(age)
+
+2.En la consola se va a mostrar un error porque destructurar se cambia el nombre de la clave por 
+personAge el valor de age no esta definida 
+
+3. el atajo que se podria utilizar para recuperar el valor de una propieded de un objeto
+se llama destructuracion.
+
+const { partner: { name } } = spiderman
