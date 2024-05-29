@@ -1,0 +1,8 @@
+.fondo{
+    background-color: hsl(183, 34%, 74%);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    display: flex;
+    justify-content: left;
+}
+button{margin-top: 20px;}

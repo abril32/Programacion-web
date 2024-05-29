@@ -1,0 +1,17 @@
+.encabezado{
+    background-color: #eeb8b8;
+    color: #000000;
+}
+
+.alinear{
+    display: flex;
+    border-radius: 50%;
+}
+
+.foto{
+    width: 150px;
+}
+
+.letra{
+    font-style: oblique;
+}
