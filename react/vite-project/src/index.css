@@ -1,0 +1,11 @@
+.color{
+  color: #ee3c60;
+  background-color: beige;
+
+}
+.grilla{
+  display: flex;
+  flex-direction: column;
+}
+.Cardstyle{
+   width: "18rem" }
