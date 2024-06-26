@@ -1,11 +1,16 @@
-.color{
-  color: #ee3c60;
-  background-color: beige;
-
-}
-.grilla{
-  display: flex;
-  flex-direction: column;
-}
 .Cardstyle{
    width: "18rem" }
+
+.grilla{
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 20px;
+}
+
+.alinear{
+  display: flex;
+}
+
+:root {
+  background-color: hsl(194, 33%, 43%);
+}

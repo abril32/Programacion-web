@@ -1,9 +1,9 @@
 import { Prueba} from "./componentes/Prueba";
+import CharacterList from "./componentes/rick /rickymorty";
 
 function App() {
   return <>
-    hola mundo
-   <Prueba nombre={"Abril"} apellido={"Mosquera"}/>
+   <CharacterList/>
   </>
 }
 
