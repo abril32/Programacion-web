@@ -1,11 +1,15 @@
-import { Prueba} from "./componentes/Prueba";
-import CharacterList from "./componentes/rick /rickymorty";
+import React, { useState } from 'react';
+import CurrencyConverter from './conversor de monedas/api';
 
 function App() {
-  return <>
-   <CharacterList/>
-  </>
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h1>Conversor de Moneda</h1>
+      </header>
+      <CurrencyConverter />
+    </div>
+  );
 }
 
-export default App
-
+export default App;
