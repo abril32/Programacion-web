@@ -4,13 +4,13 @@ import React from 'react';
 const Contact = () => {
   return (
     <section id="contact">
-      <h2>Contacto</h2>
+      <h2 className='margen'>Contacto</h2>
       <form>
-        <label htmlFor="name">Nombre:</label>
+        <a href="name">Nombre; </a>
         <input type="text" id="name" name="name" required />
-        <label htmlFor="email">Correo:</label>
+        <a href="email">Correo: </a>
         <input type="email" id="email" name="email" required />
-        <label htmlFor="message">Mensaje:</label>
+        <a href="message">Mensaje: </a>
         <textarea id="message" name="message" required></textarea>
         <button type="submit">Enviar</button>
       </form>

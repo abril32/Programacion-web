@@ -4,8 +4,7 @@ import React from 'react';
 const Header = () => {
   return (
     <header>
-      <h1>Mi Portafolio</h1>
-      <nav className='separacion'>
+      <nav className='orientation espacio'>
         <div>
         <a href="#home">Inicio</a>
         </div>
