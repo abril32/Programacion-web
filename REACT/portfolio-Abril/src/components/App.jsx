@@ -1,15 +1,6 @@
-import React, { useState } from 'react';
+export default function App () {
 
-
-function App(){
-    const [dark,setdark] = useState(true)
-
-    const toggle = () => {
-        setdark(!dark)
-}
     return(
-        <>
-        <button onClick={toggle}>{dark ? 'Oscuro' : 'Claro'}</button>
-        </>
+        <>pepito</>
     )
-}
+};

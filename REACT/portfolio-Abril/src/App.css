@@ -17,7 +17,7 @@ body {
 
   .orientation {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 }
@@ -30,14 +30,11 @@ body {
   }
 }
 
-.espacio{
+.barra{
   border-bottom: 2px gray solid;
   margin: 5px;
   padding: 15px;
   background-color: #E1AFD1;
-}
-.centro{ 
-  text-align:center;
 }
 
 .tamaño-letra{
@@ -48,6 +45,17 @@ body {
   margin-bottom: 30px;
 }
 
-.oscuro{
-  background-color: ;
+.espacio{
+  margin: 5px;
+  padding: 5px;
+}
+
+.boton{
+  display: flex;
+  flex-direction: column;
+}
+
+.foto{
+  width: 30%;
+  object-fit: cover;
 }

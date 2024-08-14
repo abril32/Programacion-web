@@ -4,7 +4,7 @@ import React from 'react';
 const Header = () => {
   return (
     <header>
-      <nav className='orientation espacio'>
+      <nav className='orientation barra'>
         <div>
         <a href="#home">Inicio</a>
         </div>
