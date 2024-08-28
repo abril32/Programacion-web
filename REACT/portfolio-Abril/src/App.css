@@ -56,6 +56,16 @@ body {
 }
 
 .foto{
-  width: 30%;
+  width: 100%;
   object-fit: cover;
+  object-fit: contain;
+}
+
+.fila{
+  display: flex;
+  flex-direction: row;
+}
+
+.max{
+  max-width: 640px;
 }
